@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .layout{
+    width: 500px;
+    margin: 25px auto;
+    border-radius: 7px;
+    background: green;
+    color: #fff;
+  }
+
+  .layout::after {
+  content:" ";
+  display: block;
+  clear: both;
+  }
+  .layoutv1{
+    float: left;
+    margin: 10px 15px 15px 15px;
+  }
+  .sec{
+    margin-top: 15px;
+  }
+  a{
+    text-decoration: none;
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px;
+  }
+  .a{
+    background-color: blue;
+  } 
+  .b{
+    background-color: red;
+  }
+  .c{
+    background-color: orange;
+  }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div class="layoutv1">
+      <h1 class="frist">恭喜你</h1>
+      <p class="sec">获得本周学霸，继续加油吧</p>
+    </div>
+    <a href="#">x</a>
+  </div>
+  <div class="layout a">
+    <div class="layoutv1">
+      <h1 class="frist">恭喜你</h1>
+      <p class="sec">获得本周学霸，继续加油吧</p>
+    </div>
+    <a href="#">x</a>
+  </div>
+  <div class="layout b">
+    <div class="layoutv1">
+      <h1 class="frist">恭喜你</h1>
+      <p class="sec">获得本周学霸，继续加油吧</p>
+    </div>
+    <a href="#">x</a>
+  </div>
+  <div class="layout c">
+    <div class="layoutv1">
+      <h1 class="frist">恭喜你</h1>
+      <p class="sec">获得本周学霸，继续加油吧</p>
+    </div>
+    <a href="#">x</a>
+  </div>
+
+
+</body>
+</html>
